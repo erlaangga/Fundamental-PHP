@@ -43,11 +43,7 @@ Sorry, your browser does not support inline SVG.
 
 <h2>It's me</h2>
 <?php 
-<<<<<<< HEAD
 echo "Hai\n" //nampaknya titik koma adalah hal yang tidak wajib untuk statement terakhir dalam tag PHP
-=======
-echo "Hai\n" //nampaknya titik koma adalah hal yang tidak wajib
->>>>>>> 20691d9e3648767ea4318e8384b20bac743f38d6
 ?>
 <?php
 // This is a single-line comment
@@ -108,10 +104,7 @@ echo "<br/>"
 $x = 5;
 $y = 10;
 
-<<<<<<< HEAD
 // blok program pada PHP ditandai dengan kurung kurawal
-=======
->>>>>>> 20691d9e3648767ea4318e8384b20bac743f38d6
 function myTest() {
     $GLOBALS['y'] = $GLOBALS['x'] + $GLOBALS['y'];
 } 
@@ -166,11 +159,7 @@ echo $x + $y;
 // $x = 5;
 // $y = 4;
 // So that's why I got some errors when I duplicated some variables even in different PHP section.
-<<<<<<< HEAD
 // The variable is declarated in the same HTML is known by other section.
-=======
-// The variable is declarated in the same HTML is know by other section.
->>>>>>> 20691d9e3648767ea4318e8384b20bac743f38d6
 print "<h2>$txt1</h2>";
 print "Study PHP    at $txt2<br>";
 print $x + $y;
@@ -270,7 +259,6 @@ $x = 5;
 $y = 7;
 echo $br;
 
-<<<<<<< HEAD
 
 // operator 
 /*
@@ -341,9 +329,6 @@ xor	Xor	$x xor $y	True if either $x or $y is true, but not both
 !==	Non-identity	$x !== $y	Returns true if $x is not identical to $y	
  */
 
-=======
-// operator logika
->>>>>>> 20691d9e3648767ea4318e8384b20bac743f38d6
 if($x==5){
 	echo "Lima", $br; 
 }
@@ -894,7 +879,7 @@ echo session_id();
 // using database with PDO
 $host = "localhost";
 $username = "root";
-$password = "37526";
+$password = "";
 
 // try {
 // $connectdb = new PDO("mysql:host=$host;dbname=belajar",$username, $password);
